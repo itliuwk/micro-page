@@ -5,7 +5,7 @@ import {getTimeForQiniu} from './date'
 
 export function getQiniuToken() {
   return request({
-    url: 'https://quxiaapi.renqilai.com/api/qiniu/upToken',
+    url: '',  // 这里放七牛云 获取token 的链接， 七牛云上传非个人专属，需自行配置
     method: 'post',
     // params
   }).then(res => res.data).catch(e => {
