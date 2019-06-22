@@ -14,6 +14,7 @@ const createLintingRule = () => ({  //eslint 配置
   // enforce: 'pre',
   // include: [resolve('src'), resolve('test')],
   // options: {
+//https://quxiaapi.renqilai.com/api/qiniu/upToken
   //   formatter: require('eslint-friendly-formatter'),
   //   emitWarning: !config.dev.showEslintErrorsInOverlay
   // }
